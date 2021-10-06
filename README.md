@@ -175,3 +175,9 @@ We can revert the latest commit by using the head alias like this:</p>
 <pre>
   git push
 </pre>
+
+<h2>How to pull changes from a remote repo in Git:</h2>
+<p>If other team members are working on your repository, you can retrieve the latest changes made to the remote repository with the command below:</p>
+<pre>
+  git pull
+</pre>
