@@ -70,6 +70,17 @@ So I have written them down and thought it'd be nice to share them with the comm
   git commit -a -m"your commit message here"
 </pre>
 
+<h2>How to see changes made before committing them using "diff" in Git:</h2>
+<p>You can pass a file as a parameter to only see changes on a specific file.
+git diff shows only unstaged changes by default.
+We can call diff with the --staged flag to see any staged changes.
+</p>
+<pre>
+  git diff
+  git diff all_checks.py
+  git diff --staged
+</pre>
+
 <h2>How to see your commit history in Git:</h2>
 <p>This command shows the commit history for the current repository:</p>
 <pre>
