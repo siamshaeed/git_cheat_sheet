@@ -126,3 +126,22 @@ We can revert the latest commit by using the head alias like this:</p>
 <pre>
   git revert comit_id_here
 </pre>
+
+<h2>Branch</h2>
+<h2>How to create a new branch in Git:</h2>
+<p>By default, you have one branch, the main branch. With this command, you can create a new branch. Git won't switch to it automatically – you will need to do it manually with the next command.</p>
+<pre>
+  git branch branch_name
+</pre>
+
+<h2>How to switch to a newly created branch in Git:</h2>
+<p>When you want to use a different or a newly created branch you can use this command:</p>
+<pre>
+  git checkout branch_name
+</pre>
+
+<h2>How to list branches in Git:</h2>
+<p>You can view all created branches using the git branch command. It will show a list of all branches and mark the current branch with an asterisk and highlight it in green.</p>
+<pre>
+  git branch
+</pre>
