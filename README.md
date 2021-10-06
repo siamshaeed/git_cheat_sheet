@@ -100,3 +100,29 @@ Replace commit-id with the id of the commit that you find in the commit log afte
 <pre>
   git mv oldfile newfile
 </pre>
+
+<h2>How to revert staged changes in Git:</h2>
+<p>You can use the -p option flag to specify the changes you want to reset.</p>
+<pre>
+  git reset HEAD filename
+  git reset HEAD -p
+</pre>
+
+<h2>How to amend the most recent commit in Git:</h2>
+<p>git commit --amend allows you to modify and add changes to the most recent commit.</p>
+<pre>
+  git commit --amend
+</pre>
+
+<h2>How to rollback the last commit in Git:</h2>
+<p>git revert will create a new commit that is the opposite of everything in the given commit.
+We can revert the latest commit by using the head alias like this:</p>
+<pre>
+  git revert HEAD
+</pre>
+
+<h2>How to rollback an old commit in Git:</h2>
+<p>You can revert an old commit using its commit id. This opens the editor so you can add a commit message.</p>
+<pre>
+  git revert comit_id_here
+</pre>
