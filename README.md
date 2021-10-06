@@ -145,3 +145,33 @@ We can revert the latest commit by using the head alias like this:</p>
 <pre>
   git branch
 </pre>
+
+<h2>How to create a branch in Git and switch to it immediately:</h2>
+<p>In a single command, you can create and switch to a new branch right away.</p>
+<pre>
+  git checkout -b branch_name
+</pre>
+
+<h2>How to delete a branch in Git:</h2>
+<p>When you are done working with a branch and have merged it, you can delete it using the command below:</p>
+<pre>
+  git branch -d branch_name
+</pre>
+
+<h2>How to merge two branches in Git:</h2>
+<p>To merge the history of the branch you are currently in with the branch_name, you will need to use the command below:</p>
+<pre>
+  git merge branch_name
+</pre>
+
+<h2>How to abort a conflicting merge in Git:</h2>
+<p>If you want to throw a merge away and start over, you can run the following command:</p>
+<pre>
+  git merge --abort
+</pre>
+
+<h2>How to push changes to a remote repo in Git:</h2>
+<p>When all your work is ready to be saved on a remote repository, you can push all changes using the command below:</p>
+<pre>
+  git push
+</pre>
