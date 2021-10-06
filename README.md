@@ -57,3 +57,46 @@ So I have written them down and thought it'd be nice to share them with the comm
 <pre>
   git status
 </pre>
+
+<h2>How to commit changes with a message in Git:</h2>
+<p>You can add a commit message without opening the editor. This command lets you only specify a short summary for your commit message.</p>
+<pre>
+  git commit -m "your commit message here"
+</pre>
+
+<h2>How to commit changes (and skip the staging area) in Git:</h2>
+<p>You can add and commit tracked files with a single command by using the -a and -m options.</p>
+<pre>
+  git commit -a -m"your commit message here"
+</pre>
+
+<h2>How to see your commit history in Git:</h2>
+<p>This command shows the commit history for the current repository:</p>
+<pre>
+  git log
+</pre>
+
+<h2>How to see your commit history including changes in Git:</h2>
+<p>This command shows the commit's history including all files and their changes:</p>
+<pre>
+  git log -p
+</pre>
+
+<h2>How to see a specific commit in Git:</h2>
+<p>This command shows a specific commit.
+Replace commit-id with the id of the commit that you find in the commit log after the word commit.</p>
+<pre>
+  git show commit-id
+</pre>
+
+<h2>How to remove tracked files from the current working tree in Git:</h2>
+<p>This command expects a commit message to explain why the file was deleted.</p>
+<pre>
+  git rm filename
+</pre>
+
+<h2>How to rename files in Git:</h2>
+<pThis command stages the changes, then it expects a commit message.></p>
+<pre>
+  git mv oldfile newfile
+</pre>
