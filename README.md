@@ -1,3 +1,5 @@
+##git cheat sheet
+
 <p>A distributed version control system is a system that helps you keep track of changes you've made to files in your project.
 
 This change history lives on your local machine and lets you revert to a previous version of your project with ease in case something goes wrong.
