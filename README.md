@@ -5,10 +5,7 @@ This change history lives on your local machine and lets you revert to a previou
 Git makes collaboration easy. Everyone on the team can keep a full backup of the repositories they're working on on their local machine. Then, thanks to an external server like BitBucket, GitHub or GitLab, they can safely store the repository in a single place.
 
 This way, different members of the team can copy it locally and everyone has a clear overview of all changes made by the whole team.
-
-Git has many different commands you can use. And I've found that these fifty are the ones I use the most often (and are therefore the most helpful to remember).
-
-So I have written them down and thought it'd be nice to share them with the community. I hope you find them useful – Enjoy.</p>
+</p>
 
 <h2>How to check your Git configuration:</h2>
 <p>The command below returns a list of information about your git configuration including user name and email:</p>
