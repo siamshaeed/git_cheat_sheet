@@ -1,4 +1,4 @@
-##git cheat sheet
+<h1>Complete git cheat sheet</h1>
 
 <p>A distributed version control system is a system that helps you keep track of changes you've made to files in your project.
 
