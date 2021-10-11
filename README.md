@@ -191,3 +191,9 @@ We can revert the latest commit by using the head alias like this:</p>
 <pre>
   git pull
 </pre>
+
+<h2>How to pull another branch:</h2>
+<p>If other team members are working on your repository, you can get the latest changes from another branch with the command below:</p>
+<pre>
+  git pull origin branch_name
+</pre>
